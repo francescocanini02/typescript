@@ -1,0 +1,19 @@
+{
+  "name": "typescript-debug",
+  "version": "1.0.0",
+  "description": "Debugging TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Daniele Arduini",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}

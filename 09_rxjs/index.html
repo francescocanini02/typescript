@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning RxJS</title>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+</head>
+<body>
+<p>Apri la console con F12</p>
+
+<script>
+    // set our baseURL reference path
+    //System.config({
+    //    baseURL: '/',
+    //    defaultJSExtensions: true
+    //});
+    var exports = {};
+    System.import('/e01-promise.js');
+    System.import('/e02-observable.js');
+</script>
+</body>
+</html>
